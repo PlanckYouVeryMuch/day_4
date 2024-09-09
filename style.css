@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+#TOPofWEB {
+    padding: 16px;
+    background-color: purple;
+    color: blanchedalmond;
+    text-align: center;
+    grid-area: header;
+    font-family: "Texturina" ;
+}
+#EndOfArticle {
+    background-color: #fff;
+}
+h2 {
+    font-size: 27px;
+    color: midnightblue;
+}
+#Logo {
+    margin: 0%;
+    padding: 8px;
+    font-family: "Texturina", sans-serif, helvetica;
+}
+#CFH {
+    color: antiquewhite;
+    font-family: "Texturina", helvetica;
+}
+#CountryFilter{
+    margin: 0%;
+    text-align: left;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: "Texturina", helvetica, arial;
+}
+#CFH2 {
+    color: antiquewhite;
+    font-family: "Texturina", helvetica;
+}
+#CategoryFilter{
+    margin: 0%;
+    text-align: left;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: "Texturina", helvetica, arial;
+}
+
+#menu {
+    padding: 32px;
+    background-color:cadetblue;
+    grid-area: menu;
+}
+
+#MRP {
+    font-family: "Courgette",Helvetica, sans-serif;
+    color: rgba(15, 226, 233, 0.885);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size:2.5vw;
+}
+h3 { font-size: small;}
+nav{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+}
+#nav-ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    
+}
+#nav-ul > li {
+    padding: 11px;
+    margin: 6px;
+}
+.navbutton {
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: "Texturina", sans-serif;
+    font-size: medium;
+    padding: 10px;
+    border: 3px solid antiquewhite;
+   border-radius: 12%;
+}
+
+img{
+    max-width: 37vw;
+    max-height: 37vw;
+}
+
+#main-section {
+    padding: 32px;
+    grid-area: maint;
+}
+
+footer {
+    padding: 6px;
+    background-color: purple;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-align: left;
+    grid-area: footer;
+}
+.FooterLinks {
+    color: antiquewhite;
+    text-decoration: none;
+    font-family:"Courgette",sans-serif, Haettenschweiler;
+}
+#footer-ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+#FH{
+    color: antiquewhite;
+    font-family: "Texturina", helvetica, arial;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu maint"
+    "footer footer"
+    ;
+    grid-template-columns: 2fr 7fr;
+}
